@@ -1,0 +1,4 @@
+access.tf
+terraform.tfstate
+.terraform/
+.[Tt]umbs
