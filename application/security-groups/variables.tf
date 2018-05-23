@@ -17,3 +17,17 @@ variable "aws_tag_product" {
 variable "aws_tag_environment" {
   default = ""
 }
+
+variable "aws_vpc_address_space" {
+  default = ""
+}
+
+variable "aws_private_subnet_address_space" {
+  type    = "list"
+  default = [""]
+}
+
+variable "aws_public_subnet_address_space" {
+  type    = "list"
+  default = [""]
+}
